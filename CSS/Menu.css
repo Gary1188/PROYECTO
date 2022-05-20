@@ -1,0 +1,112 @@
+/* <meta name="viewport" content="width=device-width, initial-scale=1">; */
+
+h1{
+	width: 25vw;
+	height: 1vw;
+	position: relative;
+	left: 38vw;
+	top: -2.5vw;
+	text-align: center;
+	font-weight: bolder;
+	margin-bottom: 0vw;
+	line-height: 200%;
+	  font-size:  5vw;
+	margin-block-start: 0vw;
+	font-family: 'Whisper', cursive;
+			   
+}
+
+.collapsible {
+
+	background-color: transparent;
+	
+	color: rgb(0, 0, 0);
+	cursor: pointer;
+	padding: 10px;
+	width: 45vw;
+	border: none;
+	text-align: center;
+	outline: none;
+	font-size: 40px;
+	position: relative;
+	left: 27vw;
+	top: 3.5vw;
+	font-family: 'Whisper', cursive;
+	font-weight: bolder;
+	margin-bottom: 15px;
+  }
+
+
+
+
+  .content {
+	/* background-color: #eee; */
+	color: #444;
+	/* cursor: pointer; */
+	/* padding: 1px; */
+	width: 44.8vw;
+	border: none;
+	text-align: center;
+	outline: none;
+	font-size: 30px;
+	position: relative;
+	left: 27vw;
+	top: 4.5vw;
+	font-family: 'Whisper', cursive;
+	max-height: 0;
+	overflow: hidden;
+	transition: max-height 0.2s ease-out;
+	/* margin-bottom: -10px; */
+	height: 400px;
+	width: 45vw;
+	overflow: auto;
+	/* border: 1px solid #666; */
+	background-color: rgb(239, 162, 73);
+	/* padding: 2px; */
+	margin-top: -31px;
+
+
+}
+p{
+	margin-bottom: -40px;
+}
+#content.c1{
+	background-color: blue;
+}
+
+
+  .collapsible:after {
+	content: '\02795'; /* Unicode character for "plus" sign (+) */
+	font-size: 13px;
+	color: white;
+	/* float: right; */
+	margin-left: 5px;
+  }
+  
+  .active:after {
+	content: "\2796"; /* Unicode character for "minus" sign (-) */
+  }
+
+
+.active, .collapsible:hover {
+  background-color: rgb(199, 131, 4);
+  color: black;
+}
+
+
+.imgmenu{
+	position: relative;
+	top: -2.7vw;
+	/* left: 30vw; */
+	width: 35vw;
+	border: 6px solid transparent;
+border-image: linear-gradient(rgb(35%, 73%, 100%), rgb(88, 91, 65),rgb(53, 133, 199) );
+background-color: blue;
+border-image-slice: 1;
+margin-bottom: -85px;
+
+}
+
+/* div.scroll_vertical {
+	
+} */
